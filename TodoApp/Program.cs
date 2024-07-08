@@ -19,15 +19,15 @@ namespace TodoApp
         private static void DisplayMenu()
         {
             Console.Clear();
-            Console.WriteLine("To-Do List");
-            Console.WriteLine("1. Add Task");
-            Console.WriteLine("2. Remove Task");
-            Console.WriteLine("3. Toggle Task Status (True or False)");
-            Console.WriteLine("4. View All Tasks");
-            Console.WriteLine("5. View Completed Tasks");
-            Console.WriteLine("6. View Pending Tasks");
-            Console.WriteLine("7. Save and Exit");
-            Console.WriteLine("Select an option: ");
+            Console.WriteLine("\tTask Managment System\n");
+            Console.WriteLine("\t1. Add Task");
+            Console.WriteLine("\t2. Remove Task");
+            Console.WriteLine("\t3. Toggle Task Status (True or False)");
+            Console.WriteLine("\t4. View All Tasks");
+            Console.WriteLine("\t5. View Completed Tasks");
+            Console.WriteLine("\t6. View Pending Tasks");
+            Console.WriteLine("\t7. Save and Exit\n");
+            Console.WriteLine("\tSelect an option: ");
         }
 
         private static void HandleUserInput()
