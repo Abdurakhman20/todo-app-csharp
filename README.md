@@ -16,10 +16,10 @@ Using this system, you can easily create tasks, save them in a text file, displa
 
 ## Screenshots
 Menu:
-![menu screenshot](menu_screenshot.jpg)
+![menu screenshot](assets/menu_screenshot.jpg)
 
 Add task:  
-![add task screenshot](add_task.jpg)
+![add task screenshot](assets/add_task.jpg)
 
 View all tasks:
-![view tasks screenshot](view_tasks.jpg)
+![view tasks screenshot](assets/view_tasks.jpg)
