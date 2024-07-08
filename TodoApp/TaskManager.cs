@@ -26,7 +26,7 @@ namespace TodoApp
         {
             var task = tasks.FirstOrDefault(t => t.Id == id);
 
-            task?.ToggleCompleted();
+            task?.ToggleStatus();
         }
         public List<Task> GetAllTasks()
         {

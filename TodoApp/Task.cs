@@ -23,7 +23,7 @@ namespace TodoApp
             IsCompleted = false;
         }
 
-        public void ToggleCompleted()
+        public void ToggleStatus()
         {
             bool status = IsCompleted;
             IsCompleted = !status;

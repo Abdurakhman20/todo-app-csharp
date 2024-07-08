@@ -22,19 +22,25 @@ namespace TodoApp
         public static List<Task> LoadTasks(string filePath)
         {
             var tasks = new List<Task>();
+
             if (File.Exists(filePath))
             {
                 using (var reader = new StreamReader(filePath))
                 {
                     string line;
+
                     while ((line = reader.ReadLine()) != null)
                     {
                         var parts = line.Split('|');
+
                         if (parts.Length == 4)
                         {
                             int id = int.Parse(parts[0]);
+
                             string title = parts[1];
+
                             string description = parts[2];
+
                             bool isCompleted = bool.Parse(parts[3]);
 
                             var task = new Task(id, title, description)
