@@ -15,11 +15,11 @@ Using this system, you can easily create tasks, save them in a text file, displa
 - Load tasks from a file when the application starts
 
 ## Screenshots
-Menu:
-![menu screenshot](assets/menu_screenshot.jpg)
+Menu:  
+![menu screenshot](Screenshots/menu_screenshot.jpg)
 
 Add task:  
-![add task screenshot](assets/add_task.jpg)
+![add task screenshot](Screenshots/add_task.jpg)
 
-View all tasks:
-![view tasks screenshot](assets/view_tasks.jpg)
+View all tasks:  
+![view tasks screenshot](Screenshots/view_tasks.jpg)
